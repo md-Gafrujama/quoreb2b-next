@@ -1,6 +1,6 @@
 "use client";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import Image from "next/image";
+import Images from "next/images";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -53,7 +53,7 @@ export default function Contact() {
           </div>
           <div className="relative w-[300px] h-[400px] md:w-[450px] md:h-[650px]">
             <Image
-              src="/image/cartoons.webp"
+              src="/images/cartoons.webp"
               alt="Contact Illustration"
               fill
               className="object-contain"
@@ -175,7 +175,7 @@ export default function Contact() {
           </p>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-[#00d8a6]/20 hover:shadow-2xl transition-all duration-300 max-h-[400px]">
             <Image
-              src="/image/lets-connect_image.jpg"
+              src="/images/lets-connect_image.jpg"
               alt="Connect With Us"
               width={400}
               height={400}
