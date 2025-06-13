@@ -1,7 +1,7 @@
 "use client"; // Only if you're using this in App Router (Next.js 13+)
 
 import { useState } from "react";
-
+import Link from 'next/link';
 export default function Cards() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -64,7 +64,7 @@ export default function Cards() {
         <div className="text-white text-4xl md:text-5xl font-bold mb-15 text-center font-quicksand">
           Let's Talk About Work
         </div>
-       <Link to="/Contact-us">
+    <Link href="/Contact-us" passHref>
   <button className="rounded-full bg-black text-white px-10 py-4 text-lg font-semibold hover:bg-[#00d8a6] transition">
     Start Now
   </button>
