@@ -291,7 +291,7 @@ export default function LowNav() {
               </div>
               {/* Contact */}
               <Link
-                href="/contact"
+                href="/Contact-us"
                 className="relative text-gray-700 hover:text-teal-600 font-bold text-sm tracking-wide transition-all duration-300 group"
               >
                 CONTACT
@@ -300,7 +300,7 @@ export default function LowNav() {
 
               {/* CTA Button */}
               <Link
-                href="/contact"
+                href="/Contact-us"
                 className="bg-gradient-to-r from-[#d9eb72] to-[#00D4A4] text-white px-6 py-2.5 rounded-full font-medium text-sm hover:from-teal-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Get Started
@@ -453,7 +453,7 @@ export default function LowNav() {
               </div>
 
               <Link
-                href="/contact"
+                href="/Contact-us"
                 className="block px-4 py-3 text-gray-700 hover:text-teal-600 hover:bg-gray-50 rounded-lg font-bold transition-all duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -463,7 +463,7 @@ export default function LowNav() {
               {/* Mobile CTA */}
               <div className="px-4 pt-4">
                 <Link
-                  href="/contact"
+                  href="/Contact-us"
                   className="block w-full text-center bg-gradient-to-r from-teal-500 to-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:from-teal-600 hover:to-blue-700 transition-all duration-300"
                   onClick={() => setMobileMenuOpen(false)}
                 >
