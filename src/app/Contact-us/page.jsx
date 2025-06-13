@@ -1,6 +1,6 @@
 "use client";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import Images from "next/images";
+import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
