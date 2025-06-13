@@ -64,9 +64,11 @@ export default function Cards() {
         <div className="text-white text-4xl md:text-5xl font-bold mb-15 text-center font-quicksand">
           Let's Talk About Work
         </div>
-        <button className="rounded-full bg-black text-white px-10 py-4 text-lg font-semibold hover:bg-[#00d8a6] transition">
-          Start Now
-        </button>
+       <Link to="/Contact-us">
+  <button className="rounded-full bg-black text-white px-10 py-4 text-lg font-semibold hover:bg-[#00d8a6] transition">
+    Start Now
+  </button>
+</Link>
       </div>
     </div>
   );
