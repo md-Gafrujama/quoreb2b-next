@@ -20,7 +20,7 @@ const services = [
   },
   { name: "Account Based Marketing", image: "/images/service2.png", link: "/Services/Account-based-marketing" },
   { name: "Lead Generation", image: "/images/service3.jpeg", link: "/Services/Lead-generation" },
-  { name: "Data Solutions", image: "/images/service4.webp", link: "#" },
+  { name: "Data Solutions", image: "/images/service4.webp", link: "/Services/Data-solutions" },
   { name: "Web Design", image: "/images/service5.jpg", link: "#" },
 ];
 
@@ -28,7 +28,7 @@ const solutions = [
   { name: "Content Syndication", image: "/images/solution1.png", link: "#" },
   { name: "Sales-Qualified Leads", image: "/images/solution2.jpg", link: "#" },
   { name: "Intent Leads", image: "/images/solution3.jpg", link: "#" },
-  { name: "Email Marketing", image: "/images/solution4.webp", link: "#" },
+  { name: "Email Marketing", image: "/images/solution4.webp", link: "/Solutions/Email-marketing" },
 ];
 
 const knowledgebase = [
