@@ -43,7 +43,7 @@ export default function Contact() {
   return (
     <div className="bg-[#f7fafd] w-full min-h-screen">
       {/* Hero Section */}
-      <div className="relative w-full h-[400px] bg-gradient-to-b from-[#00d8a6] to-[#c6e94a] rounded-b-3xl flex items-center justify-center px-6 shadow-md mb-2">
+      <div className="relative w-full h-[400px] bg-gradient-to-b from-[#00d8a6] to-[#c6e94a] rounded-b-3xl flex items-center justify-center px-6 shadow-md mb-2 mt-7">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="text-center md:text-left">
             <h1 className="text-white text-5xl font-bold">Get in Touch</h1>
